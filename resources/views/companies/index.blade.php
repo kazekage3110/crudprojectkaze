@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <title>Laravel 9 CRUD Tutorial Example</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+    <style>
+        body{
+            background-color: darkred;
+            
+        }
+    </style>
 </head>
 <body>
     <div class="container mt-2">
