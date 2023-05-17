@@ -5,21 +5,36 @@
     <title>Laravel 9 CRUD Tutorial Example</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
     <style>
-        body{
-            background-color: #99FFFF;
+        body {
+            background-color: white;
+        }
 
+        .container {
+            margin-top: 2rem;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        .btn-success {
+            margin-bottom: 1rem;
+        }
+
+        .table {
+            margin-bottom: 1rem;
         }
     </style>
 </head>
 <body>
-    <div class="container mt-2">
+    <div class="container">
         <div class="row">
             <div class="col-lg-12 margin-tb">
                 <div class="pull-left">
                     <h2>Laravel 9 CRUD Example Tutorial</h2>
                 </div>
                 <div class="pull-right mb-2">
-                    <a class="btn btn-success" href="{{ route('companies.create') }}"> Create Company</a>
+                    <a class="btn btn-success" href="{{ route('companies.create') }}">Create Company</a>
                 </div>
             </div>
         </div>
@@ -54,7 +69,7 @@
                             </form>
                         </td>
                     </tr>
-                    @endforeach
+                @endforeach
             </tbody>
         </table>
         {!! $companies->links() !!}
