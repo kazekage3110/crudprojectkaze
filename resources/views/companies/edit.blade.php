@@ -59,7 +59,7 @@
                         @enderror
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary ml-3">Submit</button>
+                <button type="submit" class="btn btn-primary ml-3">Submit</button><br>
             </div>
         </form>
     </div>

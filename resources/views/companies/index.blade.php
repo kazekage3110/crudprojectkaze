@@ -6,10 +6,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
     <style>
         body {
+            font-family: sans-serif;
             background-color: white;
         }
 
         .container {
+            font-family: sans-serif;
             margin-top: 2rem;
         }
 
@@ -19,10 +21,23 @@
 
         .btn-success {
             margin-bottom: 1rem;
+            padding: 5px 30px;
+            border: none;
+            outline: none;
+            background-color: aquamarine;
+            color: white;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 20px;
+            display: block;
+            margin: 0 auto;
+            transition: 0.2s all;
+
         }
 
         .table {
             margin-bottom: 1rem;
+            background-color: lightblue;
         }
     </style>
 </head>
@@ -32,6 +47,7 @@
             <div class="col-lg-12 margin-tb">
                 <div class="pull-left">
                     <h2>Laravel 9 CRUD Example Tutorial</h2>
+                    
                 </div>
                 <div class="pull-right mb-2">
                     <a class="btn btn-success" href="{{ route('companies.create') }}">Create Company</a>
